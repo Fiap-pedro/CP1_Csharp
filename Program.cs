@@ -44,10 +44,10 @@ void Calculadora()
             break;
         }
 
-        Console.WriteLine("Escolha o primeiro número: ");
+        Console.WriteLine("Primeiro número: ");
         Double NumEscolhido1 = Double.Parse(Console.ReadLine());
 
-        Console.WriteLine("Escolha o segundo número: ");
+        Console.WriteLine("Segundo número: ");
         Double NumEscolhido2 = Double.Parse(Console.ReadLine());
 
         double ResultadoDaOperacao;
@@ -87,3 +87,4 @@ void Calculadora()
     }
 
 Calculadora();
+
